@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+
+</style>
+</head>
+<body>
+<div>
+     <h1>This is a heading</h1>
+     <p>the first paragraph.</p>
+     <div>This is a div</div>
+</div>
+<p>The second paragraph.</p>
+<div>
+     <p>The third paragraph.</p>
+     <p>the fourth paragraph.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>Add Hotel</title>
+    <link rel="stylesheet" href="Bootstrap\bootstrap-3.3.4-dist\css\bootstrap.min">
+</head>
+<body>
+    <header>
+        Booking
+    </header>
+    <nav>
+        <a href="HTMLPage2.html"> Add Hotel</a>
+        <a href="HTMLPage1.html">View hotels</a>
+    </nav>
+    <aside></aside>
+    <article>
+        Add Hotel
+        <form>
+            Name: <br>
+            <input type="text" name="Name" autofocus required>
+            <br>
+            Adress: <br>
+            <input type="text" name="Adress" required>
+            <br>
+            City: <br>
+            <input list="City" required>
+            <datalist id="City">
+                <option value="Iasi">
+                <option value="Bucuresti">
+                <option value="Timisoara">
+                <option value="Cluj">
+                <option value="Constanta">
+            </datalist><br>
+            Email: <br>
+            <input type="text" name="Email">
+            <br>
+            Phone: <br>
+            <input type="tel" name="Phone" size="10" required>
+            <br>
+            Site: <br>
+            <input type="url" name="Site" required>
+            <br>
+            Rooms No.: <br>
+            <input type="number" name="Rooms" min="1" required>
+            <br>
+            Stars No.: <br>
+            <input type="range" name="Stars" min="1" max="5" required>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </article>
+    <footer>
+        <br>
+        <br>
+        <br>
+        From zero to hero TeamNet
+    </footer>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿html{
+    height: 100%;
+}
+body
+{
+    height: 100%;
+    background-color: lightgrey;
+}
+
+header{
+    height: 10%;
+    text-align: center;
+}
+
+nav {
+    height: 10%;
+    position: relative;
+    text-align: center;
+}
+
+aside {
+    height: 70%;
+    float: left;
+}
+
+article {
+}
+.imgs {
+    max-height:10%;
+}
+
+.tablL tr:nth-child(odd){
+    background-color:yellow;
+}
+.tablL tr:nth-child(even){
+    background-color: green;
+}
+
+footer {
+    height: 10%;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+}

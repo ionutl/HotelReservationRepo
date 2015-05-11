@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<head>
+<title> Booking app</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+	<h1>Booking</h1>
+</header>
+<nav style='height:"50px"'>
+<a href="addHotel.html"> Add Hotel</a> 
+<a href="index.html">View hotels</a>    
+
+</nav>
+<aside>
+
+
+<ul class="asideMenu">
+	<h3>Page navigation</h3>
+<li><a href="#reservation">Reservation Form</a></li>
+<li><a href="#hotelList">Hotel List</a></li>
+<li><a href="#lastMinute">Last minute deals</a></li>
+</ul>
+
+</aside>
+
+<article >
+	
+<section id="reservation">
+   <form>
+   <fieldset>
+    <legend>Reservation Form</legend>
+   		<label for="cityList">City</label> 
+			<select name="cityList">
+<option>Select a city</option>
+<option>Iasi</option>
+<option>Bacau</option>
+<option>Bucuresti</option>
+<option>Londra</option>
+</select>
+		<label for="checkInDate">Check-In</label> 
+		<input type="Date" id="checkInDate"/> 
+		<label for="checkOutDate">Check-Out</label> 
+		<input type="Date" id="checkOutDate"/> 
+		<input type="submit" value="Search"/>
+		</fieldset>
+	</form>
+	</section>
+<section id="hotelList"> 
+<table border=1>
+	<tr>
+		<th>Nume</th>
+		<th>Adresa</th>
+		<th>Oras</th>
+		<th>Site</th>
+		<th>Numar camere</th>
+		<th>Numar stele</th>
+	</tr>
+	<tr>
+		<td>Hotel Traian</td>
+		<td>Piata Unirii nr. 1</td>
+		<td>Iasi</td>
+	    <td><a href="http://www.grandhoteltraian.ro">www.grandhoteltraian.ro</a></td>
+		<td>30</td>
+		<td><img src="star.jpg" /><img src="star.jpg" /> <img src="star.jpg" /> <img src="star.jpg" /></td>
+	</tr>
+	<tr>
+		<td>Hotel 3</td>
+		<td>Strada Libertatii nr 6</td>
+		<td>Bacau</td>
+		<td><a href="http://www.grandhoteltraian.ro">www.grandhoteltraian.ro</a></td>
+		<td>15</td>
+		<td><img src="star.jpg" /> <img src="star.jpg" /></td>
+
+	</tr>
+	<tr>
+		<td>Hotel 4</td>
+		<td>Strada Malinelor nr 7</td>
+		<td>Bucuresti</td>
+		<td><a href="http://www.grandhoteltraian.ro">www.grandhoteltraian.ro</a></td>
+		<td>19</td>
+		<td> <img src="star.jpg" /></td>
+
+	</tr>
+</table>
+
+</section>
+
+
+<section id="lastMinute">
+	<h1>Last Minute deals</h1>
+	<div>
+		<h3> Hotel Creek </h3>
+		<span><img src="creek.jpg" style="width:100px" />
+	    <p> 20% discount</p>
+	</div>
+	<div>
+		<h3> Hotel Tulip </h3>
+		<span><img src="tulip.jpg" style="width:100px" />
+	    <p> 10% discount</p>
+	</div>
+	<div>
+		<h3> Hotel International </h3>
+		<span><img src="international.jpg" style="width:100px" />
+	    <p> 50% discount</p>
+	</div>
+</sectionc>
+</article>
+
+<footer>
+From Zero to Hero - Teamnet Iasi 
+</footer>
+</body>
+</html>

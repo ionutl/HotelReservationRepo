@@ -1,0 +1,18 @@
+﻿header{
+    text-align: center;
+}
+
+body
+{
+    background-color: lightgrey
+}
+
+nav {
+    position: relative;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+}

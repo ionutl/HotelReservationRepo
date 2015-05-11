@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>Booking app</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <script src="Script1.js"></script>
+    </head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center">Booking</p></div>
+        </div>
+    </header>
+    <nav>
+        <div class="row">
+            <div class="col-md-12">
+               <a href="HTMLPage2.html"><p class="text-center"> Add Hotel</a>
+               <a href="HTMLPage1.html">View hotels</p></a>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <aside>
+            <div class="col-md-4">
+                <p class="text-center bg-success">
+                    <br>
+                    <a href="#table">Hotels <br></a>
+                    <a href="#Search">Search hotel<br></a>
+                    <a href="#Deals">Last minute deals<br></a>
+                    <br>
+                </p>
+            </div>
+        </aside>
+        <article>
+            <div class="col-md-8">
+                    <a id="table"></a>
+                    <table class=" table">
+                        <tr>
+                            <th>Nume</th>
+                            <th>Nr Locuri</th>
+                            <th>Stele</th>
+                            <th>Web page</th>
+                        </tr>
+                        <tr>
+                            <td>Hotel Unirea</td>
+                            <td>200</td>
+                            <td>
+                                <img src="3d-yellow-star.png" height="20" width="20" />
+                                <img src="3d-yellow-star.png" height="20" width="20" />
+                                <img src="3d-yellow-star.png" height="20" width="20" />
+                                <img src="3d-yellow-star.png" height="20" width="20" />
+                            </td>
+                            <td>
+                                <a href="http://www.w3schools.com" target="_blank">W3Schools.com</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Hotel Continental</td>
+                            <td>250</td>
+                            <td>
+                                <img src="3d-yellow-star.png" height="20" width="20" />
+                                <img src="3d-yellow-star.png" height="20" width="20" />
+                                <img src="3d-yellow-star.png" height="20" width="20" />
+                            </td>
+                            <td>
+                                <a href="http://www.w3schools.com" target="_blank">W3Schools.com</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Hotel Europa</td>
+                            <td>100</td>
+                            <td>
+                                <img src="3d-yellow-star.png" height="20" width="20" />
+                                <img src="3d-yellow-star.png" height="20" width="20" />
+                                <img src="3d- half yellow-star.png" height="20" width="20" />
+                            </td>
+                            <td>
+                                <a href="http://www.w3schools.com" target="_blank">W3Schools.com</a>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <a id="Search">Search Hotel</a>
+                    <form class="form-inline">
+                        City:
+                        <input list="City" placeholder="John Doe" required>
+                        <datalist id="City">
+                            <option value="Iasi">
+                            <option value="Bucuresti">
+                            <option value="Timisoara">
+                            <option value="Cluj">
+                            <option value="Constanta">
+                        </datalist>
+                        Check-in:
+                        <input type="date" name="Check-in">
+                        Check-out:
+                        <input type="date" name="Check-out" min="2015-05-04">
+                        <input type="submit" value="Search">
+                    </form>
+                    <br>
+                    <br>
+                    <a id="Deals">Last minute deals</a> <br>
+                    <table class=" table">
+                        <tr>
+                            <th>Hotel name</th>
+                            <th>Hotel picture</th>
+                            <th>Discount</th>
+                        </tr>
+                        <tr>
+                            <td align="center">Hotel Unirea</td>
+                            <td>
+                                <img class="imgs" src="http://cdn1.buuteeq.com/upload/8904/hotel-stele4.jpg.1140x481_0_0_5937.jpg" />
+                            </td>
+                            <td align="center">20%</td>
+                        </tr>
+                        <tr>
+                            <td align="center">Hotel El Mirador</td>
+                            <td>
+                                <img class="imgs" src=http://hotels.iberostar.com/public/system/html_items/16218/grand_hotel_page/galerry_grand-hotel-el-mirador-introduction-hotels-image-3.jpg?1339510308" />
+                            </td>
+                            <td align="center">15%</td>
+                        </tr>
+                        <tr>
+                            <td align="center">Hotel Excelsior</td>
+                            <td>
+                                <img class="imgs" src="https://phgcdn.com/images/uploads/MLAEH/corporatemasthead/grand-hotel-excelsior_masthead.jpg" />
+                            </td>
+                            <td align="center">10%</td>
+                        </tr>
+                    </table>
+            </div>
+        </article>
+    </div>
+    <footer>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-center bg-warning">
+                    <br>
+                    <br>
+                    From zero to hero TeamNet
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

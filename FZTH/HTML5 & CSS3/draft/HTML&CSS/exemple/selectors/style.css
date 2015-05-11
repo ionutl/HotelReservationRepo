@@ -1,0 +1,32 @@
+p{
+	font-size: 15px;
+}
+.parag{
+	color: green;
+}
+#colorParag{
+color:blue;
+}
+
+span p{
+	background-color: red;
+}
+div p{
+color:pink;
+}
+
+div>p{
+	font-size: 30px;
+}
+div+p{
+	font-weight: bold;
+}
+div~p{
+	text-align: center;
+}
+ h1, h2, p{
+ 	font-style: italic;
+ }
+  h3{
+  	color:green;
+  }
